@@ -1,0 +1,52 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/8a14d661dd6e/semantic-search-benchmarker
+configfile: pyproject.toml
+plugins: anyio-4.14.2
+collecting ... collected 2 items
+
+tests/test_chunking.py::test_fence_with_suffix_is_not_a_closing_fence FAILED [ 50%]
+tests/test_retrieval.py::test_markdown_escaped_identifier_matches_plain_query FAILED [100%]
+
+=================================== FAILURES ===================================
+________________ test_fence_with_suffix_is_not_a_closing_fence _________________
+
+    def test_fence_with_suffix_is_not_a_closing_fence():
+        text = '# Guide\n```text\n```python\n# still code\n```\n## Next\nDone\n'
+        chunks = StructureAwareChunker().split(text, 'fences.md')
+        assert len(chunks) == 2
+>       assert '# still code' in chunks[0].content
+E       AssertionError: assert '# still code' in '# Guide\n```text\n```python\n'
+E        +  where '# Guide\n```text\n```python\n' = DocumentChunk(chunk_id='fba1b1f31264878b0210', content='# Guide\n```text\n```python\n', parent_doc='fences.md', metadata={'strategy': 'structure', 'start_char': 0, 'end_char': 26, 'line_start': 1, 'line_end': 3, 'headers': ['Guide'], 'token_count': 9}).content
+
+tests/test_chunking.py:40: AssertionError
+_____________ test_markdown_escaped_identifier_matches_plain_query _____________
+
+    def test_markdown_escaped_identifier_matches_plain_query():
+>       assert tokenize(r'pg\_dump') == tokenize('pg_dump')
+E       AssertionError: assert ['pg', '_dump'] == ['pg_dump']
+E         
+E         At index 0 diff: 'pg' != 'pg_dump'
+E         Left contains one more item: '_dump'
+E         
+E         Full diff: (-: missing in left side, +: extra in left side)
+E           [
+E         +     'pg',...
+E         
+E         ...Full output truncated, use '-vv' to show
+
+tests/test_retrieval.py:21: AssertionError
+=============================== warnings summary ===============================
+../../../../opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14
+  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+  The CallSpec2 alias will be removed in pytest 10.
+  Update imports to use CallSpec instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+    from _pytest.python import CallSpec2
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_chunking.py::test_fence_with_suffix_is_not_a_closing_fence
+FAILED tests/test_retrieval.py::test_markdown_escaped_identifier_matches_plain_query
+========================= 2 failed, 1 warning in 0.64s =========================

@@ -1,0 +1,57 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/8a14d661dd6e/semantic-search-benchmarker
+configfile: pyproject.toml
+plugins: anyio-4.14.2
+collecting ... collected 9 items / 1 deselected / 8 selected
+
+tests/test_benchmarks.py::test_metric_math PASSED                        [ 12%]
+tests/test_benchmarks.py::test_top_k_cutoff FAILED                       [ 25%]
+tests/test_benchmarks.py::test_labels_follow_source_not_chunk_number PASSED [ 37%]
+tests/test_chunking.py::test_exact_overlap_and_reconstruction PASSED     [ 50%]
+tests/test_chunking.py::test_structure_preserves_fences_and_hierarchy PASSED [ 62%]
+tests/test_chunking.py::test_empty_invalid_and_unicode PASSED            [ 75%]
+tests/test_retrieval.py::test_exact_identifier_and_case_punctuation FAILED [ 87%]
+tests/test_retrieval.py::test_cosine_order_and_normalization PASSED      [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_top_k_cutoff _______________________________
+
+    def test_top_k_cutoff():
+>       assert metrics([set(), set(), {0}], 1, 2) == {'hit_rate': 0.0, 'recall': 0.0, 'mrr': 0.0}
+E       AssertionError: assert {'hit_rate': ...3333333333333} == {'hit_rate': ...0, 'mrr': 0.0}
+E         
+E         Omitting 1 identical items, use -vv to show
+E         Differing items:
+E         {'hit_rate': 1.0} != {'hit_rate': 0.0}
+E         {'mrr': 0.3333333333333333} != {'mrr': 0.0}
+E         
+E         Full diff: (-: missing in left side, +: extra in left side)...
+E         
+E         ...Full output truncated, use '-vv' to show
+
+tests/test_benchmarks.py:13: AssertionError
+__________________ test_exact_identifier_and_case_punctuation __________________
+
+    def test_exact_identifier_and_case_punctuation():
+        index = BM25Index(chunks())
+        assert index.search('CUSTOM_CONFIG_FLAG_XYZ!', 1)[0].chunk.chunk_id == '0'
+>       assert index.search('CUSTOM_CONFIG_FLAG_XYZ!', 1)[0].score > 0
+E       AssertionError: assert 0.0 > 0
+E        +  where 0.0 = SearchResult(chunk=DocumentChunk(chunk_id='0', content='CUSTOM_CONFIG_FLAG_XYZ enables retries', parent_doc='test.md', metadata={}), score=0.0).score
+
+tests/test_retrieval.py:16: AssertionError
+=============================== warnings summary ===============================
+../../../../opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14
+  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+  The CallSpec2 alias will be removed in pytest 10.
+  Update imports to use CallSpec instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+    from _pytest.python import CallSpec2
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_benchmarks.py::test_top_k_cutoff - AssertionError: assert {...
+FAILED tests/test_retrieval.py::test_exact_identifier_and_case_punctuation - ...
+============= 2 failed, 6 passed, 1 deselected, 1 warning in 0.79s =============

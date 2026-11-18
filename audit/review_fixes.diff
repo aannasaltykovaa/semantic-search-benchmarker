@@ -1,0 +1,33 @@
+--- audit/chunking_before_review.py
++++ src/chunking.py
+@@ -19,7 +19,8 @@
+             value = marker.group(1)
+             if fence is None:
+                 fence = value
+-            elif value[0] == fence[0] and len(value) >= len(fence):
++            elif (value[0] == fence[0] and len(value) >= len(fence)
++                  and not line[marker.end():].strip()):
+                 fence = None
+         elif fence is None:
+             heading = re.match(r"^(#{1,6})\s+(.+?)\s*$", line)
+--- audit/indexer_before_review.py
++++ src/indexer.py
+@@ -8,7 +8,8 @@
+ 
+ def tokenize(text: str) -> list[str]:
+     """Shared corpus/query tokenizer; retain underscore identifiers."""
+-    return re.findall(r"\w+", text.casefold())
++    # Markdown escapes literal underscores; normalize their source representation.
++    return re.findall(r"\w+", text.replace("\\_", "_").casefold())
+ 
+ 
+ class Embedder(Protocol):
+@@ -27,7 +28,7 @@
+         tokenizer = self.model.tokenizer
+         limit = self.model.max_seq_length-tokenizer.num_special_tokens_to_add(pair=False)
+         for owner, text in enumerate(texts):
+-            ids = tokenizer.encode(text, add_special_tokens=False)
++            ids = tokenizer.encode(text, add_special_tokens=False, verbose=False)
+             for start in range(0, max(1, len(ids)), limit):
+                 part = ids[start:start+limit]
+                 windows.append(tokenizer.decode(part))

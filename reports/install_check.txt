@@ -1,0 +1,17 @@
+Defaulting to user installation because normal site-packages is not writeable
+Obtaining file:///workspace/scratch/8a14d661dd6e/semantic-search-benchmarker
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: semantic-search-benchmarker
+  Building editable for semantic-search-benchmarker (pyproject.toml): started
+  Building editable for semantic-search-benchmarker (pyproject.toml): finished with status 'done'
+  Created wheel for semantic-search-benchmarker: filename=semantic_search_benchmarker-0.1.0-0.editable-py3-none-any.whl size=3164 sha256=1d2e504ce7ed0138ef3fa50e8b19bc443bf0fa4c722ac96797a72473369b632a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-u7ws5yfs/wheels/6d/1e/33/601929ff94f0fe65cd157fe0f074dc0b658ea73fabb3ec1291
+Successfully built semantic-search-benchmarker
+Installing collected packages: semantic-search-benchmarker
+Successfully installed semantic-search-benchmarker-0.1.0
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip

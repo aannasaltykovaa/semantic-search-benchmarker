@@ -1,0 +1,15 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3589.61it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+      configuration  k  hit_rate  recall      mrr   mean_ms    p50_ms    p95_ms
+   BM25 · Structure  3      0.55    0.55 0.550000  0.437871  0.426756  0.770117
+   BM25 · Structure  5      0.70    0.70 0.585000  0.437871  0.426756  0.770117
+   BM25 · Structure 10      0.85    0.85 0.603889  0.437871  0.426756  0.770117
+ Dense · 256 tokens  3      0.55    0.55 0.450000 25.430861 22.673764 41.428525
+ Dense · 256 tokens  5      0.70    0.70 0.487500 25.430861 22.673764 41.428525
+ Dense · 256 tokens 10      0.70    0.70 0.487500 25.430861 22.673764 41.428525
+Dense · 1024 tokens  3      0.75    0.75 0.608333 25.155953 22.246442 31.963502
+Dense · 1024 tokens  5      0.80    0.80 0.618333 25.155953 22.246442 31.963502
+Dense · 1024 tokens 10      0.90    0.90 0.632917 25.155953 22.246442 31.963502
+  Dense · Structure  3      0.85    0.85 0.733333 22.382941 20.858304 32.497047
+  Dense · Structure  5      0.85    0.85 0.733333 22.382941 20.858304 32.497047
+  Dense · Structure 10      0.90    0.90 0.740476 22.382941 20.858304 32.497047

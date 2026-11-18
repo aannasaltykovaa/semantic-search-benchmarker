@@ -1,0 +1,22 @@
+--- audit/indexer_initial.py
++++ src/indexer.py
+@@ -61,7 +61,7 @@
+             raise ValueError("K must be positive")
+         if not query.strip():
+             return []
+-        scores = self.index.get_scores(query.split())
++        scores = self.index.get_scores(tokenize(query))
+         order = sorted(range(len(scores)), key=lambda i: (-scores[i], self.chunks[i].chunk_id))[:k]
+         return [SearchResult(chunk=self.chunks[i], score=float(scores[i])) for i in order]
+ 
+--- audit/benchmarker_initial.py
++++ src/benchmarker.py
+@@ -8,7 +8,7 @@
+ def metrics(matches: list[set[int]], relevant_count: int, k: int) -> dict[str, float]:
+     if k < 1 or relevant_count < 1:
+         raise ValueError("K and relevant_count must be positive")
+-    ranks = [rank for rank, found in enumerate(matches, 1) if found]
++    ranks = [rank for rank, found in enumerate(matches[:k], 1) if found]
+     found = set().union(*matches[:k]) if matches[:k] else set()
+     return {"hit_rate": float(bool(ranks)), "recall": len(found)/relevant_count,
+             "mrr": 1/ranks[0] if ranks else 0.0}

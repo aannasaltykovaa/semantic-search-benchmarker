@@ -1,0 +1,3842 @@
+[
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.3780153334,
+    "timings_ms":[
+      0.372557,
+      0.415897,
+      0.345592
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":0.3780153334,
+    "timings_ms":[
+      0.372557,
+      0.415897,
+      0.345592
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":0.3780153334,
+    "timings_ms":[
+      0.372557,
+      0.415897,
+      0.345592
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.489361,
+    "timings_ms":[
+      0.487458,
+      0.4343099999,
+      0.5463150001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.489361,
+    "timings_ms":[
+      0.487458,
+      0.4343099999,
+      0.5463150001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.489361,
+    "timings_ms":[
+      0.487458,
+      0.4343099999,
+      0.5463150001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.4055676667,
+    "timings_ms":[
+      0.487691,
+      0.4370280001,
+      0.2919840001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.4055676667,
+    "timings_ms":[
+      0.487691,
+      0.4370280001,
+      0.2919840001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.4055676667,
+    "timings_ms":[
+      0.487691,
+      0.4370280001,
+      0.2919840001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.4070933332,
+    "timings_ms":[
+      0.4692309999,
+      0.4275509998,
+      0.3244979998
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.4070933332,
+    "timings_ms":[
+      0.4692309999,
+      0.4275509998,
+      0.3244979998
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.4070933332,
+    "timings_ms":[
+      0.4692309999,
+      0.4275509998,
+      0.3244979998
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.482828,
+    "timings_ms":[
+      0.5008620001,
+      0.4322760001,
+      0.5153459999
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.482828,
+    "timings_ms":[
+      0.5008620001,
+      0.4322760001,
+      0.5153459999
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.482828,
+    "timings_ms":[
+      0.5008620001,
+      0.4322760001,
+      0.5153459999
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.3875766666,
+    "timings_ms":[
+      0.453764,
+      0.3723109999,
+      0.336655
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.3875766666,
+    "timings_ms":[
+      0.453764,
+      0.3723109999,
+      0.336655
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.3875766666,
+    "timings_ms":[
+      0.453764,
+      0.3723109999,
+      0.336655
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.298758,
+    "timings_ms":[
+      0.4024990001,
+      0.2814439999,
+      0.2123310001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.298758,
+    "timings_ms":[
+      0.4024990001,
+      0.2814439999,
+      0.2123310001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.298758,
+    "timings_ms":[
+      0.4024990001,
+      0.2814439999,
+      0.2123310001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.227818,
+    "timings_ms":[
+      0.2706929999,
+      0.2237379999,
+      0.1890230001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.227818,
+    "timings_ms":[
+      0.2706929999,
+      0.2237379999,
+      0.1890230001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.227818,
+    "timings_ms":[
+      0.2706929999,
+      0.2237379999,
+      0.1890230001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.278216,
+    "timings_ms":[
+      0.3291790001,
+      0.2431089999,
+      0.2623600001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.278216,
+    "timings_ms":[
+      0.3291790001,
+      0.2431089999,
+      0.2623600001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.278216,
+    "timings_ms":[
+      0.3291790001,
+      0.2431089999,
+      0.2623600001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.1852283333,
+    "timings_ms":[
+      0.2083919999,
+      0.175292,
+      0.172001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.1852283333,
+    "timings_ms":[
+      0.2083919999,
+      0.175292,
+      0.172001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.1852283333,
+    "timings_ms":[
+      0.2083919999,
+      0.175292,
+      0.172001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6165536667,
+    "timings_ms":[
+      0.50822,
+      0.91548,
+      0.425961
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6165536667,
+    "timings_ms":[
+      0.50822,
+      0.91548,
+      0.425961
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.1111111111,
+    "latency_ms":0.6165536667,
+    "timings_ms":[
+      0.50822,
+      0.91548,
+      0.425961
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.585102,
+    "timings_ms":[
+      0.434974,
+      0.355227,
+      0.965105
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.585102,
+    "timings_ms":[
+      0.434974,
+      0.355227,
+      0.965105
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.585102,
+    "timings_ms":[
+      0.434974,
+      0.355227,
+      0.965105
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6193103334,
+    "timings_ms":[
+      0.7080170001,
+      0.768721,
+      0.3811930001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6193103334,
+    "timings_ms":[
+      0.7080170001,
+      0.768721,
+      0.3811930001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6193103334,
+    "timings_ms":[
+      0.7080170001,
+      0.768721,
+      0.3811930001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.3694966667,
+    "timings_ms":[
+      0.5337969999,
+      0.3155219999,
+      0.2591710002
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.3694966667,
+    "timings_ms":[
+      0.5337969999,
+      0.3155219999,
+      0.2591710002
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.1666666667,
+    "latency_ms":0.3694966667,
+    "timings_ms":[
+      0.5337969999,
+      0.3155219999,
+      0.2591710002
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6006663333,
+    "timings_ms":[
+      0.727029,
+      0.6629659999,
+      0.4120039998
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.2,
+    "latency_ms":0.6006663333,
+    "timings_ms":[
+      0.727029,
+      0.6629659999,
+      0.4120039998
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.2,
+    "latency_ms":0.6006663333,
+    "timings_ms":[
+      0.727029,
+      0.6629659999,
+      0.4120039998
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6636840001,
+    "timings_ms":[
+      0.7419400001,
+      0.4524610001,
+      0.796651
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6636840001,
+    "timings_ms":[
+      0.7419400001,
+      0.4524610001,
+      0.796651
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.6636840001,
+    "timings_ms":[
+      0.7419400001,
+      0.4524610001,
+      0.796651
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.503053,
+    "timings_ms":[
+      0.6259920001,
+      0.4334599998,
+      0.4497069999
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":0.503053,
+    "timings_ms":[
+      0.6259920001,
+      0.4334599998,
+      0.4497069999
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":0.503053,
+    "timings_ms":[
+      0.6259920001,
+      0.4334599998,
+      0.4497069999
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.4973723333,
+    "timings_ms":[
+      0.5341029998,
+      0.4478120002,
+      0.510202
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.4973723333,
+    "timings_ms":[
+      0.5341029998,
+      0.4478120002,
+      0.510202
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.4973723333,
+    "timings_ms":[
+      0.5341029998,
+      0.4478120002,
+      0.510202
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.3988043334,
+    "timings_ms":[
+      0.486054,
+      0.35013,
+      0.3602290001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.3988043334,
+    "timings_ms":[
+      0.486054,
+      0.35013,
+      0.3602290001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":0.3988043334,
+    "timings_ms":[
+      0.486054,
+      0.35013,
+      0.3602290001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.3629063333,
+    "timings_ms":[
+      0.4039299999,
+      0.3233369998,
+      0.3614520001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":0.3629063333,
+    "timings_ms":[
+      0.4039299999,
+      0.3233369998,
+      0.3614520001
+    ]
+  },
+  {
+    "configuration":"BM25 \u00b7 Structure",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.1,
+    "latency_ms":0.3629063333,
+    "timings_ms":[
+      0.4039299999,
+      0.3233369998,
+      0.3614520001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":19.8145719999,
+    "timings_ms":[
+      19.5898089999,
+      20.8131220002,
+      19.0407849998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":19.8145719999,
+    "timings_ms":[
+      19.5898089999,
+      20.8131220002,
+      19.0407849998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":19.8145719999,
+    "timings_ms":[
+      19.5898089999,
+      20.8131220002,
+      19.0407849998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":34.9889523333,
+    "timings_ms":[
+      28.1636310001,
+      48.647203,
+      28.1560229998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":34.9889523333,
+    "timings_ms":[
+      28.1636310001,
+      48.647203,
+      28.1560229998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":34.9889523333,
+    "timings_ms":[
+      28.1636310001,
+      48.647203,
+      28.1560229998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.100596,
+    "timings_ms":[
+      22.9715170001,
+      21.6981639999,
+      27.632107
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.100596,
+    "timings_ms":[
+      22.9715170001,
+      21.6981639999,
+      27.632107
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.100596,
+    "timings_ms":[
+      22.9715170001,
+      21.6981639999,
+      27.632107
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":21.0567956667,
+    "timings_ms":[
+      25.0174760001,
+      17.592319,
+      20.560592
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":21.0567956667,
+    "timings_ms":[
+      25.0174760001,
+      17.592319,
+      20.560592
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":21.0567956667,
+    "timings_ms":[
+      25.0174760001,
+      17.592319,
+      20.560592
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":34.5613056666,
+    "timings_ms":[
+      18.851437,
+      25.6425519999,
+      59.189928
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":34.5613056666,
+    "timings_ms":[
+      18.851437,
+      25.6425519999,
+      59.189928
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":34.5613056666,
+    "timings_ms":[
+      18.851437,
+      25.6425519999,
+      59.189928
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":18.3037603334,
+    "timings_ms":[
+      20.1360440001,
+      17.1636780001,
+      17.611559
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":18.3037603334,
+    "timings_ms":[
+      20.1360440001,
+      17.1636780001,
+      17.611559
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":18.3037603334,
+    "timings_ms":[
+      20.1360440001,
+      17.1636780001,
+      17.611559
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":21.4721686667,
+    "timings_ms":[
+      29.641077,
+      16.9032880001,
+      17.872141
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":21.4721686667,
+    "timings_ms":[
+      29.641077,
+      16.9032880001,
+      17.872141
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":21.4721686667,
+    "timings_ms":[
+      29.641077,
+      16.9032880001,
+      17.872141
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":20.3400893333,
+    "timings_ms":[
+      15.7648239999,
+      16.1519889998,
+      29.103455
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":20.3400893333,
+    "timings_ms":[
+      15.7648239999,
+      16.1519889998,
+      29.103455
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":20.3400893333,
+    "timings_ms":[
+      15.7648239999,
+      16.1519889998,
+      29.103455
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":44.6404126667,
+    "timings_ms":[
+      23.33963,
+      18.6734350002,
+      91.9081729999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":44.6404126667,
+    "timings_ms":[
+      23.33963,
+      18.6734350002,
+      91.9081729999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":44.6404126667,
+    "timings_ms":[
+      23.33963,
+      18.6734350002,
+      91.9081729999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":19.8738566666,
+    "timings_ms":[
+      19.7043129999,
+      19.6589249999,
+      20.2583319999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":19.8738566666,
+    "timings_ms":[
+      19.7043129999,
+      19.6589249999,
+      20.2583319999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":19.8738566666,
+    "timings_ms":[
+      19.7043129999,
+      19.6589249999,
+      20.2583319999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":30.0023913333,
+    "timings_ms":[
+      32.438682,
+      23.7920550001,
+      33.7764369999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":30.0023913333,
+    "timings_ms":[
+      32.438682,
+      23.7920550001,
+      33.7764369999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":30.0023913333,
+    "timings_ms":[
+      32.438682,
+      23.7920550001,
+      33.7764369999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.761396,
+    "timings_ms":[
+      19.1676730001,
+      21.818142,
+      24.298373
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.761396,
+    "timings_ms":[
+      19.1676730001,
+      21.818142,
+      24.298373
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.761396,
+    "timings_ms":[
+      19.1676730001,
+      21.818142,
+      24.298373
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.71313,
+    "timings_ms":[
+      35.607865,
+      31.0575860001,
+      22.4739390001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.71313,
+    "timings_ms":[
+      35.607865,
+      31.0575860001,
+      22.4739390001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.71313,
+    "timings_ms":[
+      35.607865,
+      31.0575860001,
+      22.4739390001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.8567006666,
+    "timings_ms":[
+      15.2772179999,
+      17.299312,
+      14.9935719999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.8567006666,
+    "timings_ms":[
+      15.2772179999,
+      17.299312,
+      14.9935719999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.8567006666,
+    "timings_ms":[
+      15.2772179999,
+      17.299312,
+      14.9935719999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.8027266667,
+    "timings_ms":[
+      41.0485949999,
+      25.1778429999,
+      23.1817420001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.8027266667,
+    "timings_ms":[
+      41.0485949999,
+      25.1778429999,
+      23.1817420001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.8027266667,
+    "timings_ms":[
+      41.0485949999,
+      25.1778429999,
+      23.1817420001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":24.5694879999,
+    "timings_ms":[
+      20.5056289999,
+      28.703944,
+      24.4988909999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":24.5694879999,
+    "timings_ms":[
+      20.5056289999,
+      28.703944,
+      24.4988909999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":24.5694879999,
+    "timings_ms":[
+      20.5056289999,
+      28.703944,
+      24.4988909999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.522781,
+    "timings_ms":[
+      21.7579,
+      20.3435020001,
+      28.466941
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.522781,
+    "timings_ms":[
+      21.7579,
+      20.3435020001,
+      28.466941
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.522781,
+    "timings_ms":[
+      21.7579,
+      20.3435020001,
+      28.466941
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":27.425039,
+    "timings_ms":[
+      19.6854609999,
+      39.647929,
+      22.941727
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":27.425039,
+    "timings_ms":[
+      19.6854609999,
+      39.647929,
+      22.941727
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":27.425039,
+    "timings_ms":[
+      19.6854609999,
+      39.647929,
+      22.941727
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":23.819757,
+    "timings_ms":[
+      27.61252,
+      23.138885,
+      20.7078660001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":23.819757,
+    "timings_ms":[
+      27.61252,
+      23.138885,
+      20.7078660001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":23.819757,
+    "timings_ms":[
+      27.61252,
+      23.138885,
+      20.7078660001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":22.991299,
+    "timings_ms":[
+      22.873588,
+      25.2222709998,
+      20.8780380001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":22.991299,
+    "timings_ms":[
+      22.873588,
+      25.2222709998,
+      20.8780380001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 256 tokens",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.25,
+    "latency_ms":22.991299,
+    "timings_ms":[
+      22.873588,
+      25.2222709998,
+      20.8780380001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":25.3828133333,
+    "timings_ms":[
+      26.9858629999,
+      26.1616409998,
+      23.000936
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":25.3828133333,
+    "timings_ms":[
+      26.9858629999,
+      26.1616409998,
+      23.000936
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":25.3828133333,
+    "timings_ms":[
+      26.9858629999,
+      26.1616409998,
+      23.000936
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.3687053334,
+    "timings_ms":[
+      14.1822129999,
+      15.3901630001,
+      16.5337400001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.3687053334,
+    "timings_ms":[
+      14.1822129999,
+      15.3901630001,
+      16.5337400001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.3687053334,
+    "timings_ms":[
+      14.1822129999,
+      15.3901630001,
+      16.5337400001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.4350816667,
+    "timings_ms":[
+      27.8881429999,
+      29.689189,
+      21.7279130002
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.4350816667,
+    "timings_ms":[
+      27.8881429999,
+      29.689189,
+      21.7279130002
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.4350816667,
+    "timings_ms":[
+      27.8881429999,
+      29.689189,
+      21.7279130002
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.133082,
+    "timings_ms":[
+      29.3635129999,
+      21.326258,
+      18.7094749999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.133082,
+    "timings_ms":[
+      29.3635129999,
+      21.326258,
+      18.7094749999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.1666666667,
+    "latency_ms":23.133082,
+    "timings_ms":[
+      29.3635129999,
+      21.326258,
+      18.7094749999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.8808443333,
+    "timings_ms":[
+      26.385764,
+      22.3576819999,
+      25.899087
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.8808443333,
+    "timings_ms":[
+      26.385764,
+      22.3576819999,
+      25.899087
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.8808443333,
+    "timings_ms":[
+      26.385764,
+      22.3576819999,
+      25.899087
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":17.8700146666,
+    "timings_ms":[
+      18.8135769999,
+      18.6075209999,
+      16.1889459998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":17.8700146666,
+    "timings_ms":[
+      18.8135769999,
+      18.6075209999,
+      16.1889459998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":17.8700146666,
+    "timings_ms":[
+      18.8135769999,
+      18.6075209999,
+      16.1889459998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":18.383239,
+    "timings_ms":[
+      18.1027200001,
+      20.99739,
+      16.0496069998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":18.383239,
+    "timings_ms":[
+      18.1027200001,
+      20.99739,
+      16.0496069998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":18.383239,
+    "timings_ms":[
+      18.1027200001,
+      20.99739,
+      16.0496069998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":16.2956206667,
+    "timings_ms":[
+      16.6813410001,
+      16.5897939999,
+      15.6157270001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":16.2956206667,
+    "timings_ms":[
+      16.6813410001,
+      16.5897939999,
+      15.6157270001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":16.2956206667,
+    "timings_ms":[
+      16.6813410001,
+      16.5897939999,
+      15.6157270001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.92508,
+    "timings_ms":[
+      13.771504,
+      30.8874099999,
+      36.116326
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.92508,
+    "timings_ms":[
+      13.771504,
+      30.8874099999,
+      36.116326
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.92508,
+    "timings_ms":[
+      13.771504,
+      30.8874099999,
+      36.116326
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.873105,
+    "timings_ms":[
+      24.930136,
+      17.2239030001,
+      23.465276
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.873105,
+    "timings_ms":[
+      24.930136,
+      17.2239030001,
+      23.465276
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.873105,
+    "timings_ms":[
+      24.930136,
+      17.2239030001,
+      23.465276
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":22.5242209999,
+    "timings_ms":[
+      23.072383,
+      22.2081559998,
+      22.2921239999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":22.5242209999,
+    "timings_ms":[
+      23.072383,
+      22.2081559998,
+      22.2921239999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":22.5242209999,
+    "timings_ms":[
+      23.072383,
+      22.2081559998,
+      22.2921239999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":19.7887146667,
+    "timings_ms":[
+      20.899033,
+      19.005954,
+      19.461157
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":19.7887146667,
+    "timings_ms":[
+      20.899033,
+      19.005954,
+      19.461157
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":19.7887146667,
+    "timings_ms":[
+      20.899033,
+      19.005954,
+      19.461157
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":29.7059296667,
+    "timings_ms":[
+      27.119822,
+      31.885543,
+      30.112424
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.2,
+    "latency_ms":29.7059296667,
+    "timings_ms":[
+      27.119822,
+      31.885543,
+      30.112424
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.2,
+    "latency_ms":29.7059296667,
+    "timings_ms":[
+      27.119822,
+      31.885543,
+      30.112424
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":17.8764620001,
+    "timings_ms":[
+      19.3933309999,
+      16.1859420002,
+      18.0501130001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":17.8764620001,
+    "timings_ms":[
+      19.3933309999,
+      16.1859420002,
+      18.0501130001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":17.8764620001,
+    "timings_ms":[
+      19.3933309999,
+      16.1859420002,
+      18.0501130001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.1602153333,
+    "timings_ms":[
+      25.762107,
+      22.290917,
+      21.4276219999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.1602153333,
+    "timings_ms":[
+      25.762107,
+      22.290917,
+      21.4276219999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":23.1602153333,
+    "timings_ms":[
+      25.762107,
+      22.290917,
+      21.4276219999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":75.5468616667,
+    "timings_ms":[
+      33.444719,
+      30.900769,
+      162.295097
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":75.5468616667,
+    "timings_ms":[
+      33.444719,
+      30.900769,
+      162.295097
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":75.5468616667,
+    "timings_ms":[
+      33.444719,
+      30.900769,
+      162.295097
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":28.1530140001,
+    "timings_ms":[
+      24.7774670001,
+      27.890626,
+      31.790949
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":28.1530140001,
+    "timings_ms":[
+      24.7774670001,
+      27.890626,
+      31.790949
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":28.1530140001,
+    "timings_ms":[
+      24.7774670001,
+      27.890626,
+      31.790949
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":24.2480893334,
+    "timings_ms":[
+      23.698234,
+      21.5639410001,
+      27.4820930001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":24.2480893334,
+    "timings_ms":[
+      23.698234,
+      21.5639410001,
+      27.4820930001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.125,
+    "latency_ms":24.2480893334,
+    "timings_ms":[
+      23.698234,
+      21.5639410001,
+      27.4820930001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":21.7399716666,
+    "timings_ms":[
+      21.9757699999,
+      20.9594169999,
+      22.2847279999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":21.7399716666,
+    "timings_ms":[
+      21.9757699999,
+      20.9594169999,
+      22.2847279999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":21.7399716666,
+    "timings_ms":[
+      21.9757699999,
+      20.9594169999,
+      22.2847279999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":23.827987,
+    "timings_ms":[
+      29.016572,
+      22.145963,
+      20.321426
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":23.827987,
+    "timings_ms":[
+      29.016572,
+      22.145963,
+      20.321426
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 1024 tokens",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":23.827987,
+    "timings_ms":[
+      29.016572,
+      22.145963,
+      20.321426
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":24.8094836668,
+    "timings_ms":[
+      29.3172700001,
+      24.2813690002,
+      20.8298120001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":24.8094836668,
+    "timings_ms":[
+      29.3172700001,
+      24.2813690002,
+      20.8298120001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q01",
+    "kind":"exact",
+    "query":"Which index supports equality and range comparisons such as <= and >=?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":24.8094836668,
+    "timings_ms":[
+      29.3172700001,
+      24.2813690002,
+      20.8298120001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.0678243333,
+    "timings_ms":[
+      15.334877,
+      25.613647,
+      22.2549489999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.0678243333,
+    "timings_ms":[
+      15.334877,
+      25.613647,
+      22.2549489999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q02",
+    "kind":"exact",
+    "query":"Can a Hash index handle range queries or only equality?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.0678243333,
+    "timings_ms":[
+      15.334877,
+      25.613647,
+      22.2549489999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.873391,
+    "timings_ms":[
+      23.7921810001,
+      18.9068499999,
+      31.9211420001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.873391,
+    "timings_ms":[
+      23.7921810001,
+      18.9068499999,
+      31.9211420001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q03",
+    "kind":"exact",
+    "query":"How do I index lower(col1) for case-insensitive comparisons?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":24.873391,
+    "timings_ms":[
+      23.7921810001,
+      18.9068499999,
+      31.9211420001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":24.7631096667,
+    "timings_ms":[
+      43.4392340001,
+      15.8083700001,
+      15.0417249999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":24.7631096667,
+    "timings_ms":[
+      43.4392340001,
+      15.8083700001,
+      15.0417249999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q04",
+    "kind":"exact",
+    "query":"What does the INCLUDE clause add to a covering index?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":24.7631096667,
+    "timings_ms":[
+      43.4392340001,
+      15.8083700001,
+      15.0417249999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":23.779192,
+    "timings_ms":[
+      23.483099,
+      26.573978,
+      21.2804990001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":23.779192,
+    "timings_ms":[
+      23.483099,
+      26.573978,
+      21.2804990001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q05",
+    "kind":"exact",
+    "query":"Which index type is preferred for full text search, GIN or GiST?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":23.779192,
+    "timings_ms":[
+      23.483099,
+      26.573978,
+      21.2804990001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":19.4331756666,
+    "timings_ms":[
+      15.8757639999,
+      20.8234089998,
+      21.6003540002
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":19.4331756666,
+    "timings_ms":[
+      15.8757639999,
+      20.8234089998,
+      21.6003540002
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q06",
+    "kind":"exact",
+    "query":"Show the command pg_dump to write a database backup file.",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":19.4331756666,
+    "timings_ms":[
+      15.8757639999,
+      20.8234089998,
+      21.6003540002
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.284576,
+    "timings_ms":[
+      16.534929,
+      14.0280410001,
+      15.290758
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.284576,
+    "timings_ms":[
+      16.534929,
+      14.0280410001,
+      15.290758
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q07",
+    "kind":"exact",
+    "query":"How does ANALYZE help the query planner?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":15.284576,
+    "timings_ms":[
+      16.534929,
+      14.0280410001,
+      15.290758
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":18.9238806666,
+    "timings_ms":[
+      17.2892959999,
+      19.7339869999,
+      19.748359
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":18.9238806666,
+    "timings_ms":[
+      17.2892959999,
+      19.7339869999,
+      19.748359
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q08",
+    "kind":"exact",
+    "query":"How do I turn on enable_partition_pruning?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":18.9238806666,
+    "timings_ms":[
+      17.2892959999,
+      19.7339869999,
+      19.748359
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":16.88124,
+    "timings_ms":[
+      17.930969,
+      15.7901,
+      16.922651
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":16.88124,
+    "timings_ms":[
+      17.930969,
+      15.7901,
+      16.922651
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q09",
+    "kind":"exact",
+    "query":"Which PostgreSQL index supports ORDER BY sorted output?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":16.88124,
+    "timings_ms":[
+      17.930969,
+      15.7901,
+      16.922651
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":16.5615936667,
+    "timings_ms":[
+      14.7900760001,
+      15.042494,
+      19.8522109999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":16.5615936667,
+    "timings_ms":[
+      14.7900760001,
+      15.042494,
+      19.8522109999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q10",
+    "kind":"exact",
+    "query":"How does PostgreSQL resolve deadlocks?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":16.5615936667,
+    "timings_ms":[
+      14.7900760001,
+      15.042494,
+      19.8522109999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":23.2896416666,
+    "timings_ms":[
+      29.302939,
+      20.886796,
+      19.6791899998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":23.2896416666,
+    "timings_ms":[
+      29.302939,
+      20.886796,
+      19.6791899998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q11",
+    "kind":"conceptual",
+    "query":"How can I avoid indexing the majority of records that nobody searches for?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":23.2896416666,
+    "timings_ms":[
+      29.302939,
+      20.886796,
+      19.6791899998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":22.2299920001,
+    "timings_ms":[
+      16.7496860001,
+      27.5247280001,
+      22.4155620001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":22.2299920001,
+    "timings_ms":[
+      16.7496860001,
+      27.5247280001,
+      22.4155620001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q12",
+    "kind":"conceptual",
+    "query":"How can the database recover from a crash without losing committed changes?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":22.2299920001,
+    "timings_ms":[
+      16.7496860001,
+      27.5247280001,
+      22.4155620001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.5648906665,
+    "timings_ms":[
+      21.3594309998,
+      19.4437799998,
+      23.8914609999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.5648906665,
+    "timings_ms":[
+      21.3594309998,
+      19.4437799998,
+      23.8914609999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q13",
+    "kind":"conceptual",
+    "query":"How do I prevent a child record from referring to a nonexistent parent?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":21.5648906665,
+    "timings_ms":[
+      21.3594309998,
+      19.4437799998,
+      23.8914609999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":26.6411526666,
+    "timings_ms":[
+      45.6831900001,
+      17.6236469999,
+      16.6166209999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":26.6411526666,
+    "timings_ms":[
+      45.6831900001,
+      17.6236469999,
+      16.6166209999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q14",
+    "kind":"conceptual",
+    "query":"How can I reuse storage occupied by obsolete records?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.5,
+    "latency_ms":26.6411526666,
+    "timings_ms":[
+      45.6831900001,
+      17.6236469999,
+      16.6166209999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":20.807969,
+    "timings_ms":[
+      20.77433,
+      21.727501,
+      19.9220760001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":20.807969,
+    "timings_ms":[
+      20.77433,
+      21.727501,
+      19.9220760001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q15",
+    "kind":"conceptual",
+    "query":"Why is the binary representation of a document faster to query than its original text?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":20.807969,
+    "timings_ms":[
+      20.77433,
+      21.727501,
+      19.9220760001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.5270663333,
+    "timings_ms":[
+      23.034929,
+      30.5366380001,
+      26.0096319998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.5270663333,
+    "timings_ms":[
+      23.034929,
+      30.5366380001,
+      26.0096319998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q16",
+    "kind":"conceptual",
+    "query":"How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":26.5270663333,
+    "timings_ms":[
+      23.034929,
+      30.5366380001,
+      26.0096319998
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":22.6169903332,
+    "timings_ms":[
+      26.8348769998,
+      20.0969329999,
+      20.9191609999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":22.6169903332,
+    "timings_ms":[
+      26.8348769998,
+      20.0969329999,
+      20.9191609999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q17",
+    "kind":"conceptual",
+    "query":"How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.1428571429,
+    "latency_ms":22.6169903332,
+    "timings_ms":[
+      26.8348769998,
+      20.0969329999,
+      20.9191609999
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":3,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":22.595043,
+    "timings_ms":[
+      27.146743,
+      20.9710499998,
+      19.6673360001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":5,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":22.595043,
+    "timings_ms":[
+      27.146743,
+      20.9710499998,
+      19.6673360001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q18",
+    "kind":"conceptual",
+    "query":"What happens when two sessions each wait for a resource held by the other?",
+    "k":10,
+    "hit_rate":0.0,
+    "recall":0.0,
+    "mrr":0.0,
+    "latency_ms":22.595043,
+    "timings_ms":[
+      27.146743,
+      20.9710499998,
+      19.6673360001
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":22.3690043332,
+    "timings_ms":[
+      19.8204569999,
+      22.3540549998,
+      24.932501
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":22.3690043332,
+    "timings_ms":[
+      19.8204569999,
+      22.3540549998,
+      24.932501
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q19",
+    "kind":"conceptual",
+    "query":"How can I export all my records into commands that recreate them later?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":0.3333333333,
+    "latency_ms":22.3690043332,
+    "timings_ms":[
+      19.8204569999,
+      22.3540549998,
+      24.932501
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":3,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":32.6396130001,
+    "timings_ms":[
+      23.5134110001,
+      19.9449270001,
+      54.460501
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":5,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":32.6396130001,
+    "timings_ms":[
+      23.5134110001,
+      19.9449270001,
+      54.460501
+    ]
+  },
+  {
+    "configuration":"Dense \u00b7 Structure",
+    "query_id":"q20",
+    "kind":"conceptual",
+    "query":"How does the optimizer get information about the distribution of table contents?",
+    "k":10,
+    "hit_rate":1.0,
+    "recall":1.0,
+    "mrr":1.0,
+    "latency_ms":32.6396130001,
+    "timings_ms":[
+      23.5134110001,
+      19.9449270001,
+      54.460501
+    ]
+  }
+]

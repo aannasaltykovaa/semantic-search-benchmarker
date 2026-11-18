@@ -1,0 +1,15 @@
+{
+  "run_at": "2026-11-18T05:08:52.866674+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "vector_store": "FAISS IndexFlatIP (exact)",
+  "repeats": 3,
+  "chunk_counts": {
+    "BM25 \u00b7 Structure": 137,
+    "Dense \u00b7 256 tokens": 381,
+    "Dense \u00b7 1024 tokens": 102,
+    "Dense \u00b7 Structure": 137
+  },
+  "latency_scope": "warm query processing including query embedding; excludes startup/index construction"
+}

@@ -1,0 +1,9 @@
+services:
+  search:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - model-cache:/root/.cache/huggingface
+volumes:
+  model-cache:

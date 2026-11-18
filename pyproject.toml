@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src", "scripts"]
+
+[project]
+name = "semantic-search-benchmarker"
+version = "0.1.0"
+description = "PostgreSQL documentation search and retrieval evaluation"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "pydantic>=2,<3", "numpy>=1.26,<3", "pandas>=2,<3",
+  "tiktoken>=0.8,<1", "rank-bm25==0.2.2", "faiss-cpu>=1.9,<2",
+  "sentence-transformers>=6.3,<7", "streamlit>=1.40,<2",
+  "beautifulsoup4>=4.12,<5", "markdownify>=0.14,<2", "pytest>=8,<10"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+markers = ["integration: downloads and runs the real embedding model"]

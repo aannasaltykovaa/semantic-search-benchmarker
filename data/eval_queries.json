@@ -1,0 +1,222 @@
+[
+  {
+    "query_id": "q01",
+    "query": "Which index supports equality and range comparisons such as <= and >=?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "indexes-types.md",
+        "text": "B-trees can handle equality and range queries on data that can be sorted into some ordering."
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "query": "Can a Hash index handle range queries or only equality?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "indexes-types.md",
+        "text": "Hence, such indexes can only handle simple equality comparisons."
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "query": "How do I index lower(col1) for case-insensitive comparisons?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "indexes-expressional.md",
+        "text": "CREATE INDEX test1_lower_col1_idx ON test1 (lower(col1));"
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "query": "What does the INCLUDE clause add to a covering index?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "indexes-index-only-scans.md",
+        "text": "This is done by adding an `INCLUDE` clause listing the extra columns."
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "query": "Which index type is preferred for full text search, GIN or GiST?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "textsearch-indexes.md",
+        "text": "GIN indexes are the preferred text search index type."
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "query": "Show the command pg_dump to write a database backup file.",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "backup-dump.md",
+        "text": "pg_dump dbname > dumpfile"
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "query": "How does ANALYZE help the query planner?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "sql-analyze.md",
+        "text": "Subsequently, the query planner uses these statistics to help determine the most efficient execution plans for queries."
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "query": "How do I turn on enable_partition_pruning?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "ddl-partitioning.md",
+        "text": "SET enable_partition_pruning = on;                 -- the default"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "query": "Which PostgreSQL index supports ORDER BY sorted output?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "indexes-ordering.md",
+        "text": "only B-tree can produce sorted output"
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "query": "How does PostgreSQL resolve deadlocks?",
+    "kind": "exact",
+    "evidence": [
+      {
+        "parent_doc": "explicit-locking.md",
+        "text": "PostgreSQL automatically detects deadlock situations and resolves them by aborting one of the transactions involved, allowing the other(s) to complete."
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "query": "How can I avoid indexing the majority of records that nobody searches for?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "indexes-partial.md",
+        "text": "One major reason for using a partial index is to avoid indexing common values."
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "query": "How can the database recover from a crash without losing committed changes?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "wal-intro.md",
+        "text": "changes to data files (where tables and indexes reside) must be written only after those changes have been logged"
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "query": "How do I prevent a child record from referring to a nonexistent parent?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "ddl-constraints.md",
+        "text": "A foreign key constraint specifies that the values in a column (or a group of columns) must match the values appearing in some row of another table."
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "query": "How can I reuse storage occupied by obsolete records?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "routine-vacuuming.md",
+        "text": "The standard form of `VACUUM` removes dead row versions in tables and indexes and marks the space available for future reuse."
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "query": "Why is the binary representation of a document faster to query than its original text?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "datatype-json.md",
+        "text": "significantly faster to process, since no reparsing is needed."
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "query": "How can I accelerate a lookup when uppercase and lowercase should be treated alike?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "indexes-expressional.md",
+        "text": "CREATE INDEX test1_lower_col1_idx ON test1 (lower(col1));"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "query": "How can I read the answer straight from the lookup structure without visiting the underlying records?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "indexes-index-only-scans.md",
+        "text": "CREATE INDEX tab_x_y ON tab(x) INCLUDE (y);"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "query": "What happens when two sessions each wait for a resource held by the other?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "explicit-locking.md",
+        "text": "PostgreSQL automatically detects deadlock situations and resolves them by aborting one of the transactions involved, allowing the other(s) to complete."
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "query": "How can I export all my records into commands that recreate them later?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "backup-dump.md",
+        "text": "pg_dump dbname > dumpfile"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "query": "How does the optimizer get information about the distribution of table contents?",
+    "kind": "conceptual",
+    "evidence": [
+      {
+        "parent_doc": "sql-analyze.md",
+        "text": "Subsequently, the query planner uses these statistics to help determine the most efficient execution plans for queries."
+      }
+    ]
+  }
+]

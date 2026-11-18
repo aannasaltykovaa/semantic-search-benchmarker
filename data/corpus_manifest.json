@@ -1,0 +1,157 @@
+{
+  "retrieved_at": "2026-11-18T05:03:54.293158+00:00",
+  "version": "PostgreSQL 17",
+  "license_url": "https://www.postgresql.org/about/licence/",
+  "pages": [
+    {
+      "file": "indexes-intro.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-intro.html",
+      "words": 708,
+      "sha256": "053baa06a73be15f13c8725a48f85be9b1d8d80de5292ee9bf84cbf9115c935c"
+    },
+    {
+      "file": "indexes-types.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-types.html",
+      "words": 1057,
+      "sha256": "3d844af42c0f68de3ccda62d2d9dd1da176381232fa97ee4410275e3eb723bb8"
+    },
+    {
+      "file": "indexes-multicolumn.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-multicolumn.html",
+      "words": 648,
+      "sha256": "aa5f7d4724e72dc2ee365097be99a88ea0855b27dc1cfacafa0d6cd76940b332"
+    },
+    {
+      "file": "indexes-ordering.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-ordering.html",
+      "words": 531,
+      "sha256": "557cf71620ea12c5b7413ee8441f718cbfb85095d52179d7037f9d7a0f53b9bf"
+    },
+    {
+      "file": "indexes-bitmap-scans.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-bitmap-scans.html",
+      "words": 602,
+      "sha256": "199010149cdc2eeb024e07d703faa8b2e7041dd00662350f3a4a942557b19393"
+    },
+    {
+      "file": "indexes-unique.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-unique.html",
+      "words": 186,
+      "sha256": "0356b0ec8ae4991f363e7811e2b871ce95723c68d6f35ef27d60a0217133c0d0"
+    },
+    {
+      "file": "indexes-expressional.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-expressional.html",
+      "words": 328,
+      "sha256": "ac2216d6012ffebfc944d1111490cd42e8208f1a590ddc6f74c44f11d8b690bb"
+    },
+    {
+      "file": "indexes-partial.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-partial.html",
+      "words": 1565,
+      "sha256": "1c78f38890514cd4e4947559887e7e5757aa856cd09f773208c87d7553b265a8"
+    },
+    {
+      "file": "indexes-index-only-scans.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-index-only-scans.html",
+      "words": 1632,
+      "sha256": "320a553a2685c90158d01bc113f1954c8aae593f74e6bf7c117a542eb63ee856"
+    },
+    {
+      "file": "indexes-examine.md",
+      "url": "https://www.postgresql.org/docs/17/indexes-examine.html",
+      "words": 651,
+      "sha256": "19c9132cd77d08fdded78471a69039c3409eb12699912d021ead46e4e75fe463"
+    },
+    {
+      "file": "transaction-iso.md",
+      "url": "https://www.postgresql.org/docs/17/transaction-iso.html",
+      "words": 3760,
+      "sha256": "f8a0dfa5d7daf49a19ce0dfc1cb2f141257519f301a5040918da6d73e1c9ceb1"
+    },
+    {
+      "file": "explicit-locking.md",
+      "url": "https://www.postgresql.org/docs/17/explicit-locking.html",
+      "words": 2903,
+      "sha256": "950626e59c6a42abe06e526615bb144d5b9cd790fffbba3c62f58472570632f7"
+    },
+    {
+      "file": "mvcc.md",
+      "url": "https://www.postgresql.org/docs/17/mvcc.html",
+      "words": 63,
+      "sha256": "304d4008010475c920c2adf16916196e62ff9c6d56e4b435cdc4baebccb5a238"
+    },
+    {
+      "file": "ddl-constraints.md",
+      "url": "https://www.postgresql.org/docs/17/ddl-constraints.html",
+      "words": 3532,
+      "sha256": "0446ef52b4b7972e27134727b2eba9b0aff7ba760551ab2b18671ddc3a0f55d4"
+    },
+    {
+      "file": "ddl-partitioning.md",
+      "url": "https://www.postgresql.org/docs/17/ddl-partitioning.html",
+      "words": 6402,
+      "sha256": "f4e389400fca4bfe9e29e9955e1f2d5a45f4e41e1f6d4c594add263972a4a9ab"
+    },
+    {
+      "file": "using-explain.md",
+      "url": "https://www.postgresql.org/docs/17/using-explain.html",
+      "words": 5966,
+      "sha256": "c592ee83f3cfbcf239d37697a7b02886ee460bd676f28e26a7c4a3815130b77b"
+    },
+    {
+      "file": "routine-vacuuming.md",
+      "url": "https://www.postgresql.org/docs/17/routine-vacuuming.html",
+      "words": 5614,
+      "sha256": "4ebf1ce9cd5e07043be97e662924747b2d80914681eb8c0e37ecad274e162a95"
+    },
+    {
+      "file": "backup-dump.md",
+      "url": "https://www.postgresql.org/docs/17/backup-dump.html",
+      "words": 1562,
+      "sha256": "a56e1f5a67131e3f7c10f3a636ba334e35b21d78b614b069be63cce967b206d9"
+    },
+    {
+      "file": "wal-intro.md",
+      "url": "https://www.postgresql.org/docs/17/wal-intro.html",
+      "words": 419,
+      "sha256": "de9666724ca17b25b3fd1cd1072279a55c4c7557bedf23128d5a80f3bbbb69bd"
+    },
+    {
+      "file": "warm-standby.md",
+      "url": "https://www.postgresql.org/docs/17/warm-standby.html",
+      "words": 5104,
+      "sha256": "1d8b33adc4df15df78ea2a60e76855a425da803b7a68be03196b8148b09abb55"
+    },
+    {
+      "file": "textsearch-intro.md",
+      "url": "https://www.postgresql.org/docs/17/textsearch-intro.html",
+      "words": 2184,
+      "sha256": "8ad3b81b2b50839b508ac47f90b97bc99fdd16ad077b8727ade9a535a09d1417"
+    },
+    {
+      "file": "textsearch-indexes.md",
+      "url": "https://www.postgresql.org/docs/17/textsearch-indexes.html",
+      "words": 569,
+      "sha256": "18da5d7d5d4d6f17888c12261c21f29fd9f1a8ee94fdbe4774d725c2dc7df857"
+    },
+    {
+      "file": "datatype-json.md",
+      "url": "https://www.postgresql.org/docs/17/datatype-json.html",
+      "words": 4678,
+      "sha256": "209f48bdb6dda72621d012db223ad54645eb5ee6f9ddb73cf50bebd482b7fe4c"
+    },
+    {
+      "file": "sql-createindex.md",
+      "url": "https://www.postgresql.org/docs/17/sql-createindex.html",
+      "words": 4156,
+      "sha256": "97629950565ae7a8bd237ec4af6967131126c0b4ffadcf134d8e29f09e32253e"
+    },
+    {
+      "file": "sql-analyze.md",
+      "url": "https://www.postgresql.org/docs/17/sql-analyze.html",
+      "words": 1550,
+      "sha256": "f5a54c74310fcd057d10305f52fde7f80d424f2776164b284ab5ec9d2c268c80"
+    }
+  ]
+}
